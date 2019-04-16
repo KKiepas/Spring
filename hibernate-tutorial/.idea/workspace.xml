@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e0a0bd-1363-4a9d-9170-909152b10792" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-tutorial.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luv2code/jdbc/TestJdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateStudentDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,6 +90,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/luv2code/jdbc/TestJdbc.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateStudentDemo.java" />
       </list>
     </option>
   </component>
@@ -69,6 +116,24 @@
               <item name="hibernate-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="hibernate-tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hibernate-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hibernate-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hibernate-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hibernate-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hibernate-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hibernate-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -81,13 +146,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555361571035" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programowanie\IdeaProjects\Spring\hibernate-tutorial\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,7 +171,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CreateStudentDemo">
+    <configuration name="CreateStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.hibernate.demo.CreateStudentDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luv2code.jdbc.TestJdbc" />
       <module name="hibernate-tutorial" />
@@ -117,6 +200,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateStudentDemo" />
         <item itemvalue="Application.TestJdbc" />
       </list>
     </recent_temporary>
@@ -134,18 +218,19 @@
       <workItem from="1555361541687" duration="1051000" />
       <workItem from="1555365308329" duration="40000" />
       <workItem from="1555441409552" duration="268000" />
-      <workItem from="1555442871458" duration="742000" />
+      <workItem from="1555442871458" duration="3397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2101000" />
+    <option name="totallyTimeSpent" value="4756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Persistence" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -155,7 +240,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -183,8 +268,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/luv2code/jdbc/TestJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateStudentDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
