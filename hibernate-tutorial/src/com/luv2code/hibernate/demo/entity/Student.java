@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class Student {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)     //telling hibernate to use generation strategy (in mine auto increment)
     @Column(name = "id")
     private int id;
 
